@@ -64,4 +64,3 @@
 # sendMessage:<code>Function</code>
 # isDarkmode
 # toggleDarkmode:<code>Function</code>
-# normapi:<code>Array</code>
