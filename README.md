@@ -6,7 +6,7 @@ we document things can could be used to create mods
 function getKeys(obj) {
   return Object.keys(obj)
   .map(k=>{
-    if(this[k]){
+    if(obj[k]){
       return k + ":<code>" + (obj[k].constructor.name||typeof obj[k]) + "</code>";
     }else{
       return k;
